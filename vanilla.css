@@ -84,7 +84,7 @@ cite {
     margin-top: 1rem;
 }
 
-kbd,code,samp,pre,var { font-family: monospace; }
+kbd,code,samp,pre,var { font: var(--mobile-font-size) monospace; }
 code, pre {
     background: var(--tertiary-color);
     border: 1px solid;
@@ -116,8 +116,9 @@ figure {
 figure img { margin: 0 auto; }
 figure figcaption { font-size: 80%; margin-top: 0.5rem; text-align: center; }
 
-ul, ol { margin: 2rem 0; padding: 0 0 0 4rem; }
-li > ul, li > ol { margin: 0 0 0.25rem; padding: 0 0 0 2rem; }
+ul, ol { margin: 2rem 0; padding: 0 0 0 2rem; }
+ul li, ol li { margin-bottom: 1rem; }
+li > ul, li > ol { margin: 0 0 0.5rem; padding: 0 0 0 2rem; }
 
 dl dd { padding-left: 2rem; }
 
