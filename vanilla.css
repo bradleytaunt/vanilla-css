@@ -131,10 +131,10 @@ table {
 }
 table caption { margin: 2rem 0; }
 table tr { border-bottom: 1px solid var(--primary-color); }
+table thead { position: sticky; top: 0; }
 table tbody tr:nth-child(even) { background: var(--tertiary-color); }
 table th { background: var(--secondary-color); font-weight: bold; }
 table th, table td { padding: 0.5rem; }
-table th:not(:last-of-type), table td:not(:last-of-type) { border-right: 1px solid var(--primary-color); }
 
 input { 
     appearance: none; 
@@ -164,11 +164,22 @@ sup { font-size: 80%; vertical-align: top; }
         background-color: var(--text-color);
         color: var(--secondary-color);
     }
+    table,
+    table tr,
+    table th:not(:last-of-type),
+    table td:not(:last-of-type) {
+        border-color: var(--text-color);
+    }
+    table thead th,
+    table tfoot th {
+        background-color: var(--primary-color-light);
+    }
     :root {
         --text-color: #fff;
         --link-color: orange;
         --link-color-alt: yellow;
         --primary-color: orange;
+        --primary-color-light: dimgrey;
         --secondary-color: black;
         --tertiary-color: #2d2d2d;
     }
