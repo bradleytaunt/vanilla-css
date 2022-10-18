@@ -87,6 +87,7 @@ cite {
 kbd,code,samp,pre,var { font-family: monospace; }
 code, pre {
     background: var(--tertiary-color);
+    border: 1px solid;
     overflow: auto;
     padding: 0.5rem 1rem;
 }
