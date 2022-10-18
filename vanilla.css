@@ -91,7 +91,7 @@ code, pre {
     overflow: auto;
     padding: 0.5rem 1rem;
 }
-code pre , pre code { padding: 0; }
+code pre , pre code { border: 0; padding: 0; }
 
 /* Elements */
 hr {
