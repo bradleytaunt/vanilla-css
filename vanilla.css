@@ -118,7 +118,8 @@ figure figcaption { font-size: 80%; margin-top: 0.5rem; text-align: center; }
 
 ul, ol { margin: 2rem 0; padding: 0 0 0 2rem; }
 ul li, ol li { margin-bottom: 1rem; }
-li > ul, li > ol { margin: 0 0 0.5rem; padding: 0 0 0 2rem; }
+li > ul, li > ol { margin: 0.25rem 0 0.5rem; padding: 0 0 0 2rem; }
+li > ul li, li > ol li { margin-bottom: 0.5rem; }
 
 dl dd { padding-left: 2rem; }
 
